@@ -11,91 +11,65 @@
 
 #### Return all users, with paginated result, both parameters has it's default values, pageNumber is 1 and pageSize is set to be 10 by default.
 
-'''
+```
   "pageNumber": 1,
   "pageSize": 10,
-  "count": 10,
+  "count": 3,
   "users": [
     {
-      "id": 12,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string10",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 11,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string9",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 10,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string8",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 9,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string7",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 8,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string6",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 7,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string5",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 6,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string4",
-      "email": "string",
-      "status": "string"
-    },
-    {
-      "id": 4,
-      "firstName": "string",
-      "lastName": "string",
-      "userName": "string2",
-      "email": "string",
-      "status": "string"
-    },
-    {
       "id": 3,
-      "firstName": "John",
-      "lastName": "Smith",
-      "userName": "johnnn",
-      "email": "john@mail.com",
+      "firstName": "James",
+      "lastName": "Viscusi",
+      "userName": "James",
+      "email": "james@mail.com",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "firstName": "Marlene",
+      "lastName": "Theriault",
+      "userName": "marlene_the",
+      "email": "marlene@mail.com",
       "status": "active"
     },
     {
       "id": 1,
-      "firstName": "Senaid",
-      "lastName": "Maksumic",
-      "userName": "senmax",
-      "email": "senaid@live.com",
-      "status": "offline"
+      "firstName": "John",
+      "lastName": "Smith",
+      "userName": "JohnSmith",
+      "email": "john@mail.com",
+      "status": "active"
     }
   ]
 }
-'''
+```
+### GET api/users/{id}
+
+#### Return single object user found by it's id.
+
+```
+{
+  "id": 1,
+  "firstName": "John",
+  "lastName": "Smith",
+  "userName": "JohnSmith",
+  "email": "john@mail.com",
+  "status": "active"
+}
+```
+
+### POST api/users
+
+#### Create user with basic required information. Password will be ecrypted into database.
+#### If user is created it will be returned, in case of fail an appropriate message is returned.
+
+```
+{
+  "firstName": "string",
+  "lastName": "string",
+  "password": "string",
+  "userName": "string",
+  "email": "string",
+  "status": "string"
+}
+```
