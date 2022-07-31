@@ -3,7 +3,7 @@
 ## Info
 
 #### This system provides basic operations to manage with users and user permissions. There are features like adding, editing, viewing, deleting users, and also to assign a specific permission with some user.
-#### Application is ASP.NET Core Web API 6.0. Used RDBMS is SQL Server Express, connection string in appsetings file point to localhost server and database name "mistral_users". I have used the EntityFramework Core 6. There is just one migration, for creating database. Application don't seed any initial data.
+#### Application is ASP.NET Core Web API 6.0. Used RDBMS is SQL Server Express, connection string in appsetings file point to localhost server and database name "mistral_users". ORM used in project is the EntityFramework Core 6. There is just one migration, for creating database. Application don't seed any initial data.
 
 ## API Specification
 
