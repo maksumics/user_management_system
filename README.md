@@ -168,6 +168,7 @@
     }
   ]
 }
+```
 
 ### GET api/permission/remove?permissionId=&userId=
 
@@ -186,3 +187,4 @@
   ]
 }
 ```
+ 
