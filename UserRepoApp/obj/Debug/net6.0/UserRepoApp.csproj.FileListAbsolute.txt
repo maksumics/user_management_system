@@ -71,3 +71,4 @@ C:\Users\Senaid\source\repos\UserRepoApp\UserRepoApp\bin\Debug\net6.0\Serilog.Se
 C:\Users\Senaid\source\repos\UserRepoApp\UserRepoApp\bin\Debug\net6.0\Serilog.Sinks.Console.dll
 C:\Users\Senaid\source\repos\UserRepoApp\UserRepoApp\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\Senaid\source\repos\UserRepoApp\UserRepoApp\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Users\Senaid\source\repos\UserRepoApp\UserRepoApp\obj\Debug\net6.0\UserRepoApp.csproj.AssemblyReference.cache

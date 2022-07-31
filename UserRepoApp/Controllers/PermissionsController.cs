@@ -18,6 +18,12 @@ namespace UserRepoApp.Controllers
             _mapper = mapper;
         }
 
+        [HttpGet]
+        public async Task<ActionResult<IList<PermissionModel>>> GetAll()
+        {
+            return _mapper.Map<List<PermissionModel>>(await _permissionRepository.GetAll());
+        }
+
         [HttpGet("{userId:int}")]
         public async Task<IActionResult> GetPermissionsForUser(int userId)
         {

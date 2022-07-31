@@ -43,6 +43,11 @@ namespace UserRepoApp.Data
                 return null;
         }
 
+        public async Task<IList<Permission>> GetAll()
+        {
+            return await _userContext.Permissions.ToListAsync();
+        }
+
         public async Task<IList<Permission>> GetPermissionsForUser(int id)
         {
             var user = _userContext.Users.Where(u => u.Id == id).FirstOrDefault();
