@@ -7,7 +7,7 @@
 
 ## API Specification
 
-### GET api/users?pageNumber=&pagesize=?
+### GET api/users?pageNumber=&pagesize=
 
 #### Return all users, with paginated result, both parameters has it's default values, pageNumber is 1 and pageSize is set to be 10 by default.
 
