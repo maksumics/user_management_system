@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRepoApp", "UserRepoApp\UserRepoApp.csproj", "{5A8093AD-D10B-4E0F-B6A4-5DB17674D64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{108646C1-06E6-44A5-B72C-7C8A17CD643E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8093AD-D10B-4E0F-B6A4-5DB17674D64B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8093AD-D10B-4E0F-B6A4-5DB17674D64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8093AD-D10B-4E0F-B6A4-5DB17674D64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8093AD-D10B-4E0F-B6A4-5DB17674D64B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CEF0F6D-B117-41E5-B689-2E7F3CD5D8A4}
+	EndGlobalSection
+EndGlobal
