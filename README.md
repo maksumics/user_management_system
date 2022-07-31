@@ -150,7 +150,7 @@
 
 ### GET api/permission/assign?permissionId=&userId=
 
-#### Assign permission to user, both provided via identifiers.
+#### Assign permission to user, both of them are provided via identifiers.
 #### Returns the modified list of permissions for specified user.
 ```
 {
@@ -172,7 +172,7 @@
 
 ### GET api/permission/remove?permissionId=&userId=
 
-#### Remove selected permission from permissons list of the specific user. 
+#### Remove selected permission from permission list of the specific user
 #### Returns the modified list of permissions for specific user.
 
 ```
@@ -187,7 +187,9 @@
   ]
 }
 ```
- 
+
+### Exception handling
+
 #### Exception handling with result with following JSON in case of any thrown exception in application.
 
 ```
@@ -196,4 +198,13 @@
   "message": "Internal server error orccured!"
 }
 
+```
+
+#### Expected behavior results are also handled like on following result
+
+```
+{
+  "statusCode": 404,
+  "message": "User not found!"
+}
 ```
