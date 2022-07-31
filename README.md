@@ -2,12 +2,12 @@
 
 ## Info
 
-#### This system provides basic operations to manage with users and user permissions. There are features like adding, editing, viewing, deleting user, and also to assign a specific permission with some user.
+#### This system provides basic operations to manage with users and user permissions. There are features like adding, editing, viewing, deleting users, and also to assign a specific permission with some user.
 #### Used RDBMS is SQL Server Express, connection string in appsetings file point to localhost server and database name "mistral_users". There is just one migration, for creating database. Application don't seed any initial data.
 
 ## API Specification
 
-### GET api/users?pageNumber=&pagesize=
+### GET api/users?pageNumber=&pageSize=
 
 #### Return all users, with paginated result, both parameters has it's default values, pageNumber is 1 and pageSize is set to be 10 by default.
 
