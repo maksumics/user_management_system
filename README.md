@@ -188,3 +188,12 @@
 }
 ```
  
+#### Exception handling with result with following JSON in case of any thrown exception in application.
+
+```
+{
+  "statusCode": 500,
+  "message": "Internal server error orccured!"
+}
+
+```
